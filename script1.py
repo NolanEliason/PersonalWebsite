@@ -1,10 +1,11 @@
-from flask import Flask  # imports flask class from flask library
+from flask import Flask, render_template # imports flask class from flask library
+#render template acess html file and displays it
 
 app=Flask(__name__)
 
 @app.route('/') # home page
 def home(): 
-    return "Homepage here!"
+    return render_template("home.html")
 
 @app.route('/about/') # home page
 def about(): 
