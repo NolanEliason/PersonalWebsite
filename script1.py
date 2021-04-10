@@ -9,7 +9,7 @@ def home():
 
 @app.route('/about/') # home page
 def about(): 
-    return "About Page!"
+    return render_template("about.html")
 
 if __name__ == "__main__":  # when executing, name is set equal to main
     app.run(debug=True)
