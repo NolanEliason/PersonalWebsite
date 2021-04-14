@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
-    <link rel="stylesheet" href="E:\Python\mysite\PersonalWebsite\Demo\static\css\style.css">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
@@ -58,7 +58,7 @@
                     <img src="images/profile-1.jpeg" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm Prakash and I'm a <span class="typing-2"></span></div>
+                    <div class="text">I'm Nolan Eliason and I'm a Maintenance Engineer <span class="typing-2"></span></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
                     <a href="#">Download CV</a>
                 </div>
@@ -255,6 +255,6 @@
         <span>Created By <a href="https://www.codingnepalweb.com">CodingNepal</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
     </footer>
 
-    <script src="E:\Python\mysite\PersonalWebsite\Demo\static\js\script.js"></script>
+    <script src="{{url_for('static',filename='js/script.js')}}"></script>
 </body>
 </html>
