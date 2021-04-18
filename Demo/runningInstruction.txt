@@ -2,3 +2,6 @@
 Running the website locally in the virtual environment:
 Make sure you are in the correct the directory (PS E:\Python\mysite\PersonalWebsite ) 
 Once in the correct directory type: virtual\Scripts\python Demo\script1.py
+
+Pushing to Heroku:
+
